@@ -3,5 +3,10 @@ function helloWorld() {
     return "Hello, World!";
 }
 function sayHello(value){
-    return "Hello, "+value+"!";
+    if(value === undefined || value === true || value === false){
+        return "Hello, World!"
+    }
+
+    return "Hello, " + value + "!";
+
 }
