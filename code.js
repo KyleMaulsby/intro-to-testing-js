@@ -27,3 +27,11 @@ function isVowel(value){
     }
     return false;
 }
+function add(value1,value2){
+    if(isNaN(value1) || isNaN(value2)) {
+        return "NaN";
+    }
+    else{
+        return (Number(value1) + (Number(value2)));
+    }
+}
